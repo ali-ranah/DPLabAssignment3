@@ -3,8 +3,8 @@ public class FlightTicket implements IFlightTicket{
 
     public FlightTicket() {
         System.out.println("Loading flight ticket details from the system...");
-        this.ticketDetails = "Flight Ticket Details: [Flight Number: 123, Departure: XYZ, Arrival: ABC]";
-    }
+        this.ticketDetails = "Flight Ticket Details: [Flight Number: AE312, Departure: Islamabad, Arrival: Karachi]";
+        }
 
     @Override
     public String getTicketDetails() {
